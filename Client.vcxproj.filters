@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="nuklear\nuklear_d3d11.cpp">
+      <Filter>Nuklear</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="nuklear\nuklear_d3d11_vertex_shader.h">
+      <Filter>Nuklear</Filter>
+    </ClInclude>
+    <ClInclude Include="nuklear\nuklear_d3d11.h">
+      <Filter>Nuklear</Filter>
+    </ClInclude>
+    <ClInclude Include="nuklear\nuklear_d3d11_pixel_shader.h">
+      <Filter>Nuklear</Filter>
+    </ClInclude>
+    <ClInclude Include="nuklear\nuklear.h">
+      <Filter>Nuklear</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Nuklear">
+      <UniqueIdentifier>{798f59df-71c5-4427-964c-b756e7a2da4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
